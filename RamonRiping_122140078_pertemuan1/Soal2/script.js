@@ -159,7 +159,7 @@ document.getElementById("btn-modulus").addEventListener("click", function () {
   const angka1 = parseFloat(document.getElementById("angka1").value);
   const angka2 = parseFloat(document.getElementById("angka2").value);
 
-  if (isNaN(angka1)) {
+  if (isNaN(angka1) || isNaN(angka2)) {
     document.getElementById(
       "hasil-kalkulator"
     ).innerHTML = `<p class="text-red-500">Masukkan angka yang valid!</p>`;
