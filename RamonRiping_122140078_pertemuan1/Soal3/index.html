@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 3 - Soal 3</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="event-demo p-4 my-4 border border-gray-300 rounded">
+      <h2 class="text-xl font-bold mb-3">Form Input</h2>
+      <hr class="mb-3" />
+      <h3 class="text-md font-bold mb-3">Catatan:</h3>
+      <ul class="list-disc list-inside mb-3">
+        <li>Nama harus lebih dari 3 karakter</li>
+        <li>Email harus sesuai format email</li>
+        <li>Password minimal 8 karakter</li>
+      </ul>
+      <hr class="mb-3" />
+      <label for="nama-input" class="block mb-1">Nama: </label>
+      <input type="text" id="nama-input" placeholder="Masukkan nama Kalian" class="border p-2 rounded w-full mb-3" required>
+      <label for="email-input" class="block mb-1">Email: </label>
+      <input type="email" id="email-input" placeholder="Masukkan email Kalian" class="border p-2 rounded w-full mb-3" required>
+      <label for="password-input" class="block mb-1">Password: </label>
+      <input type="password" id="password-input" placeholder="Masukkan password Kalian" class="border p-2 rounded w-full mb-3" required>
+      <button id="btn-simpan" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Kirim</button>
+    <!-- Menghubungkan dengan file JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

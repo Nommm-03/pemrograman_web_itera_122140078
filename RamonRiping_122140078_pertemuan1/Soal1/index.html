@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pertemuan 1 - Soal 1</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="dom-demo p-4 my-4 border border-gray-300 rounded">
+      <h2 class="text-xl font-bold mb-3">TO-DO-LIST</h2>
+      <div id="dom-output" class="mb-3"></div>
+      <input
+        type="text"
+        id="act-input"
+        placeholder="Masukkan Aktivitas"
+        class="border p-2 rounded w-full mb-3"
+      />
+      <button
+        id="btn-tambah-item"
+        class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+      >
+        Tambah Item
+      </button>
+      <button
+        id="btn-hapus-item"
+        class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+      >
+        Hapus Item
+      </button>
+      <button
+        id="btn-simpan-item"
+        class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+      >
+        Simpan Data
+      </button>
+    </div>
+
+    <!-- Menghubungkan dengan file JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
