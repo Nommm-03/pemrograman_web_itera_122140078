@@ -11,7 +11,7 @@ Aplikasi ini membantu mahasiswa mengelola tugas kuliah dengan fitur tambah, edit
 - Informasi tanggal dan waktu terkini
 
 ## Screenshot
-![Dashboard](screenshot.png)
+![Dashboard](Pert2.jpg)
 
 ## Fitur ES6+ yang Diimplementasikan
 - `let` dan `const`
