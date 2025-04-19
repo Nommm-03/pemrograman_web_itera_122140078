@@ -1,0 +1,37 @@
+/* Styling untuk container SearchBar */
+.search-bar {
+  margin: 1rem 0; /* Jarak antara filter (di atas) dan form (di bawah) */
+  display: flex;
+  justify-content: center; /* Pusatkan elemen secara horizontal */
+  align-items: center; /* Pusatkan elemen secara vertikal */
+}
+
+/* Styling untuk input pencarian */
+.search-bar input {
+  width: 100%; /* Lebar penuh agar responsif */
+  max-width: 400px; /* Batasi lebar maksimal */
+  padding: 0.75rem 1rem; /* Padding untuk kenyamanan */
+  font-size: 1rem; /* Ukuran font standar */
+  border: 1px solid #ced4da; /* Border abu-abu tipis */
+  border-radius: 4px; /* Sudut melengkung */
+  outline: none; /* Hilangkan outline saat fokus */
+  transition: all 0.3s ease; /* Animasi transisi */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+/* Efek hover pada input */
+.search-bar input:hover {
+  border-color: #0559d6; /* Ubah warna border saat hover */
+}
+
+/* Efek focus pada input */
+.search-bar input:focus {
+  border-color: #0559d6; /* Warna border saat fokus */
+  box-shadow: 0 0 8px rgba(5, 89, 214, 0.25); /* Bayangan lebih tebal */
+}
+
+/* Placeholder styling */
+.search-bar input::placeholder {
+  color: #adb5bd; /* Warna placeholder abu-abu muda */
+  font-style: italic; /* Gaya huruf italic */
+}

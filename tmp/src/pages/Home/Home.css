@@ -1,0 +1,26 @@
+/* Styling untuk container utama */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Styling untuk statistik */
+.stats {
+  background-color: #f1f8ff; /* Warna latar belakang biru muda */
+  padding: 1rem; /* Ruang di dalam kotak statistik */
+  border-radius: 4px; /* Sudut melengkung */
+  margin-bottom: 1.5rem; /* Jarak ke elemen di bawahnya */
+  text-align: center; /* Pusatkan teks */
+  font-size: 0.9rem; /* Ukuran teks sedikit lebih kecil */
+  color: #333; /* Warna teks gelap */
+}
+
+/* Styling untuk pesan kosong */
+.empty-message {
+  text-align: center; /* Pusatkan teks */
+  padding: 2rem; /* Ruang di dalam kotak */
+  background-color: #f8f9fa; /* Warna latar belakang abu-abu muda */
+  border-radius: 4px; /* Sudut melengkung */
+  color: #6c757d; /* Warna teks abu-abu */
+}
